@@ -1,0 +1,96 @@
+/* Reset CSS básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Comic Sans MS;
+    line-height: 1.6;
+    background-color: #D8BFD8;
+    color: #000000;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #000000;
+    color: #FFD700;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para a barra de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o corpo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #000000;
+    color: #FFD700;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Classes */
+
+.ctext{
+	text-align: center;
+}
+
+.riscado{
+	text-decoration: line-through;
+	text-decoration-color: gold;
+}
+
+.img_fly{
+	float: left;
+}
+
+.img_fly_r{
+	float: right;
+}
+
+.mods_text{
+	color: #ff0000;
+}
+
+.subs_text{
+	color: #ff69b4;
+}
+
+.vips_text{
+	color: #C71585;
+}
